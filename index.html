@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Participe do nosso projeto ambiental e ajude a preservar o planeta. Cadastre-se para receber mais informações.">
+    <title>Cadastro Ambiental</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho-logo">
+            <img class="logo" src="img/Logo (2).png" alt="Logo EcoVida">
+            <h1>EcoVida</h1>
+        </div>
+        
+        <!-- Lista de navegação corrigida -->
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Causas</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Inscrever-se</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+       
+
+        <section id="intro">
+            <h2>Cadastre-se para Participar do Projeto Ambiental</h2>
+            <p>Junte-se a nós para ajudar a preservar o meio ambiente. Com o seu cadastro, você ficará por dentro de todas as ações e campanhas de conscientização ambiental que estamos promovendo.</p>
+        </section>
+
+        <section id="formulario">
+            <h3>Preencha o formulário abaixo para se inscrever:</h3>
+            <form action="/submit_form" method="POST">
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required placeholder="Digite sua cidade">
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Cadastrar Agora">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Eco Vida. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

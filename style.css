@@ -1,0 +1,161 @@
+/* Estilos globais para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fundo preto para a página */
+    color: white; /* Texto branco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #000000; /* Fundo preto */
+    color: rgb(255, 255, 255); /* Texto branco */
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilo do título e logo */
+#title {
+    margin-bottom: 10px;
+}
+
+#title h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#title img {
+    max-width: 150px;
+    margin-top: 10px;
+}
+
+/* Navegação - Alinhamento à direita */
+nav {
+    position: absolute; /* Coloca a navegação fora do fluxo normal do layout */
+    top: 1; /* Fixa no topo da página */
+    right: 0; /* Fixa à direita */
+    width: auto; /* Tamanho automático baseado nos itens */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0; /* Remove o padding padrão */
+    display: flex;
+    justify-content: flex-end; /* Alinha os itens à direita */
+    margin: 0; /* Remove qualquer margem extra */
+}
+
+nav ul li {
+    margin-left: 30px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: white; /* Links brancos */
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px; /* Adicionando um pouco de margem para separar o conteúdo do cabeçalho */
+}
+
+/* Seção do formulário */
+#formulario {
+    width: 40%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #333; /* Fundo mais escuro para o formulário */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Formatação do formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white; /* Cor branca para os rótulos */
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #000000; /* Fundo preto */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+footer ul li {
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo da logo do cabeçalho */
+.cabecalho-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+}
